@@ -1,0 +1,22 @@
+section {
+  height: 100vh;
+}
+:host ::ng-deep .mat-sort-header-container {
+  display: flex;
+  justify-content: center;
+}
+
+.loadFile {
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.container{
+  height: 95vh !important;
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0 3px 21px -12px rgba(0,0,0,0.6);
+}
